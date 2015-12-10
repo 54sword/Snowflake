@@ -3,13 +3,13 @@ JavaScript 下雪效果
 
 ## 使用方法
 ```javascript
-Snow({
+Snowflake({
     image:    'https://github.com/54sword/Snowflake/blob/master/snow.png?raw=true' // [必选]雪花图片的绝对地址
 });
 ```
 ##其他参数说明
 ```javascript
-Snow({
+Snowflake({
     image:    'https://github.com/54sword/Snowflake/blob/master/snow.png?raw=true', // [必选]雪花图片的绝对地址
     x:        '50px',  // [可选][默认0px]显示区域的x坐标
     y:        '85px',  // [可选][默认0px]显示区域的y坐标
