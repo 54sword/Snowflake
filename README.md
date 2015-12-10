@@ -1,7 +1,13 @@
-# snow
+# Snowflake
 JavaScript 下雪效果
 
 ## 使用方法
+```javascript
+Snow({
+    image:    'http://localhost:8888/images/snow.png' // [必选]雪花图片的绝对地址
+});
+```
+##其他参数说明
 ```javascript
 Snow({
     image:    'http://localhost:8888/images/snow.png', // [必选]雪花图片的绝对地址
