@@ -1,6 +1,6 @@
 /*
 
-Snow({
+Snowflake({
   img: 'https://raw.githubusercontent.com/54sword/snow/master/snow.png',
   y: '85px',
   x: '50px',
@@ -14,7 +14,7 @@ Snow({
 */
 
 var Snowflake = function(config) {
-  
+
   var debug = config.debug || false;                // 测试
   var rect = { x: 0, y: 0, width: 0, height: 0 };   // 雪花显示的范围
   var snowQuantity = config.quantity || 20;         // 雪花的最大数量
